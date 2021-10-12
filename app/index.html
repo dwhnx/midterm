@@ -1,25 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+    <title>Display: flex nav</title>
+    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/nav.css" />  
+  </head> -->
+
   <body>
-    <nav>
-      <ul>
-        <li><a href="#cuisines">cuisines</a></li>
-        <li><a href="#chefs">chefs</a></li>
-        <li><a href="#reviews">reviews</a></li>
-        <li><a href="#delivery">delivery</a></li>
-      </ul>
-    </nav>
-
+    <header>
+      <a href="#" class="logo"><i class="fa fa-bullseye fa-3x"></i></a>
+      <nav>
+        <ul>
+          <li><a class="active" href="#recipes">recipes</a></li>
+          <li><a href="#reviews">reviews</a></li>
+          <li><a href="#delivery">delivery</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="sign-out-link">Sign Out</a>
+    </header>
+    
     <div class="content"></div>
-
     <script src="js/data-array.js"></script>
     <script src="js/scripts.js"></script>
-  </body>
+</body>
 </html>
+
+<!-- <main class="content">
+  <article itemscope itemtype="http://schema.org/Recipe">
+    <picture>
+      <source
+        srcset="img/pattern.gif"
+        media="(min-width: 1200px)"
+      />
+      <source
+        srcset="img/pattern.gif" 
+        media="(min-width: 800px)"
+      />
+      <img src="img/pattern.gif" />
+    </picture>
+
+    <h2 itemprop="name">Pesto</h2>
+    <p itemprop="description"> description text</p>
+    <p class="summary"> <strong>Bold</strong> text </p>
+    <p> iiii <a href="#">Asian cuisine</a>  <em> ememememe </em> </p>
+
+    <blockquote> some block quote </blockquote>
+
+    <h3>Directions</h3>
+    <ol itemprop="recipeInstructions">
+      <li>first point</li>
+      <li><a href="#">Map</a> | <a href="#">Directions</a></li>
+      <li><a href="#">Web site</a></li>
+    </ol>
+
+    <h3>Ingredients</h3>
+    <ul>
+      <li itemprop="recipeIngredient">dot 1</li>
+      <li itemprop="recipeIngredient"> 1 <abbr title="Pounds">lb</abbr> unit symbol</li>
+    </ul>
+
+    <table>
+      <tbody>
+        <tr> <th>Bold 1</th> <td>Japanese</td> </tr>
+        <tr> <th>Bold 2</th> <td>$$ - $$$</td> </tr>
+      </tbody>
+    </table>
+
+  </article>
+
+  <aside>
+    <h3>header 3</h3>
+    <ul>
+      <li> <h4><a href="#">link 1</a></h4> <p> some text</p> </li>
+      <li> <h4><a href="#">link 2</a></h4> <p> text again</p> </li>
+    </ul>
+
+    <h3>header 3</h3>
+    <ul>
+      <li> <h4><a href="#">link 1</a></h4> <p> some text</p> </li>
+      <li> <h4><a href="#">link 2</a></h4> <p> text again</p> </li>
+    </ul>
+  </aside>
+</main> -->
